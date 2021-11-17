@@ -1,8 +1,5 @@
 {
 .appVersion = "1286";
-DisplayStrings = (
-"/numero"
-);
 classes = (
 {
 automatic = 1;
@@ -229076,8 +229073,6 @@ unicode = 2021;
 glyphname = numero;
 layers = (
 {
-background = {
-};
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
 paths = (
 {
@@ -229147,8 +229142,6 @@ nodes = (
 width = 500;
 },
 {
-background = {
-};
 layerId = "4196E4A4-01D0-4BE0-B812-9D3AF152A0E4";
 paths = (
 {
@@ -229300,8 +229293,6 @@ nodes = (
 width = 500;
 },
 {
-background = {
-};
 layerId = "7EB90DB1-9188-465D-93C7-E6C577A18003";
 paths = (
 {
@@ -229371,8 +229362,6 @@ nodes = (
 width = 250;
 },
 {
-background = {
-};
 layerId = "0E826D2B-F2D1-4058-A5E0-936DF7ED7520";
 paths = (
 {
@@ -229442,8 +229431,6 @@ nodes = (
 width = 250;
 },
 {
-background = {
-};
 layerId = "16CD5438-0A7A-495F-951A-DBB915DF0BEC";
 paths = (
 {
@@ -229513,8 +229500,6 @@ nodes = (
 width = 1000;
 },
 {
-background = {
-};
 layerId = "E49A0581-9397-4BB7-ADB1-45D6EDC9C316";
 paths = (
 {
@@ -229584,8 +229569,6 @@ nodes = (
 width = 250;
 },
 {
-background = {
-};
 layerId = "382F13D7-0CC9-4B85-A585-CBE12F4435D4";
 paths = (
 {
@@ -229655,8 +229638,6 @@ nodes = (
 width = 1000;
 },
 {
-background = {
-};
 layerId = "CC486EF6-6464-4B93-9956-4F2B932959EA";
 paths = (
 {
@@ -268020,5 +268001,5 @@ tH = 91;
 };
 };
 versionMajor = 3;
-versionMinor = 1;
+versionMinor = 100;
 }
