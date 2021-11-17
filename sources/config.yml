@@ -1,0 +1,10 @@
+familyName: Inconsolata
+outputDir: "../fonts"
+# both flatten and decompose filters need to be disabled otherwise the VTT hints won't compile
+# since the components will differ
+flattenComponents: false
+decomposeTransformedComponents: false
+sources:
+  - Inconsolata.glyphs
+vttSources:
+  Inconsolata[wdth,wght].ttf: vtt_hinting.ttx
