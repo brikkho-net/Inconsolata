@@ -34,20 +34,20 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-To build the fonts we must load sources/Inconsolata-vf.glyphs in Glyphs and do the following:
-- Run the decompose-transformed-components.py script
-- Run the gen_instances.py script
-- Run the inco_fix.py script
-- Save the file back in the sources directory with the filename "prod.glyphs"
-
-We can now run the build script in the terminal:
+To build the fonts run:
 
 ```
-cd sources # script needs to be run from sources dir
-sh build.sh
+gftools builder sources/config.yml
 ```
 
 Fonts will take approximately 25 minutes to build.
+
+## Changelog v.3.100
+
+- Use `gftools builder`
+- Remove glyphsapp post processing steps since fontmake can now do these automatically
+- Only include fvar instances ExtraLight to Black
+- Remove redundant files from sources/ dir
 
 ## Changelog v.3.000
 
